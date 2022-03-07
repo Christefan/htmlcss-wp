@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenitore{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1900px;
+}
+/*Header*/
+#logo{
+    border-right: 1px solid lightgray;
+    width: 10%;
+    height: 50px;
+}
+.titolo-logo{
+    /* background-color: #E579E6; */
+    margin-bottom: 5px;
+    
+}
+/* Nav */
+.lista-indirizzi{
+    margin-top: 10px;
+}
+.lista-indirizzi li{
+    padding-right:  .5em;
+    display: inline-block; 
+    color: grey;
+}
+.lista-indirizzi a{
+    font-size: 1.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+}
