@@ -38,3 +38,114 @@ html{
     text-transform: uppercase;
     color: inherit;
 }
+.con-layover::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+
+}
+
+
+.immagine-sopra{
+    /*background-color:#E1D67A;*/
+    position: relative;
+    height: 640px;
+    margin-top: 20px;
+    border-radius: 0.5em;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 6.5em;
+    left: 4em;
+    font-size: large;
+    color: white;
+}
+.banner-text h1{
+    width: 63%;
+}
+.banner-text p{
+    width: 70%;
+}
+/* Bacheca */
+.bacheca{
+    /*background-color: #0186FF;*/
+    height: 400px;
+    margin-top: 15px; 
+}
+.bacheca p{
+    width: 90%;
+}
+.tabella-t{
+    /*background-color: #ABCFE7;*/
+    height: 63.50px; 
+    font-size: larger;
+}
+.tabella{
+    /* background-color: #ABCFE7; */
+    float:left;   
+    margin-top: 13px;
+    height: 78%;
+}
+.r{
+    width: 23%;
+    
+}
+.ind-img-1{
+    background-image: url(../img/banner.jpg);
+}
+.c{
+   width: 50%;
+   margin: 13px 2%;
+}
+.l{
+    width: 23%
+}
+.immagine-sotto{
+    /*background-color:#E1D67A;*/
+    position: relative;
+    height: 80%;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 0.5em;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.ind-img-r{
+    background-image: url(../img/img-1.jpg);
+}
+.ind-img-c{
+    
+    background-image: url(../img/banner-2.jpg);
+}
+.ind-img-l{
+    background-image: url(../img/img-3.jpg);
+}
+/* Footer */
+.autore{
+    /*background-color: #8801FE;*/
+    text-align: center ;
+    margin-top: 170px;
+    height: 50px;
+    /* background-color: blueviolet; */
+
+}
+
+.hearts{
+    color: red;
+    font-size: 20px;
+}
+.hearts:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+
